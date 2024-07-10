@@ -1,8 +1,10 @@
 <script setup lang="ts"></script>
 
 <template>
-    <main class="h-full flex justify-center items-center">
-        <div class="w-3/5">
+    <main
+        class="h-full flex justify-center items-center container mx-auto px-4"
+    >
+        <div class="md:w-3/5">
             <h1 class="text-4xl font-bold">
                 Hi I'm <span class="text-purple-500">Xavier</span>
             </h1>
@@ -13,7 +15,7 @@
             </p>
 
             <div class="grid grid-cols-2 gap-4 pt-4">
-                <div class="h-28 border rounded-lg px-4 py-3">
+                <div class="border rounded-lg px-4 py-3">
                     <div
                         class="flex flex-col justify-center items-center h-full"
                     >
@@ -23,7 +25,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-28 border rounded-lg px-4 py-3">
+
+                <div class="border rounded-lg px-4 py-3">
                     <div
                         class="flex flex-col justify-center items-center h-full"
                     >
@@ -33,7 +36,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-28 border rounded-lg px-4 py-3">
+
+                <div class="border rounded-lg px-4 py-3">
                     <div
                         class="flex flex-col justify-center items-center h-full"
                     >
@@ -45,7 +49,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-28 border rounded-lg px-4 py-3">
+
+                <div class="border rounded-lg px-4 py-3">
                     <div
                         class="flex flex-col justify-center items-center h-full"
                     >
